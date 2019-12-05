@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kendo Combobox Accessibility Example</title>
+		<link rel="stylesheet" href="http://kendo.cdn.telerik.com/2017.3.913/styles/kendo.common.min.css" />
+		<link rel="stylesheet" href="http://kendo.cdn.telerik.com/2017.3.913/styles/kendo.default.min.css" />
+
+		<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="http://kendo.cdn.telerik.com/2017.3.913/js/kendo.all.min.js"></script>
+		<script src="KendoAccessibleComboBox.js"></script>
+		
+	</head>
+	<body>
+		<h1>Kendo Combobox Accessibility Example</h1>
+		<form>
+			<legend>Form Fields:</legend>
+		
+
+
+			<p>
+				<label for="kendo-extended-accessibility11">Kendo Accessible Combobox</label>
+				<select id="kendo-extended-accessibility11">
+					<option value="hello1">Hello 1</option>
+					<option value="world2">World 2</option>
+					<option value="we">We</option>
+					<option value="walk">Walk</option>
+					<option value="yello">Yellow</option>
+					<option value="grapes">Grapes</option>
+					<option value="beans">Beans</option>
+					<option value="truck">Truck</option>
+					<option value="computer">Computer</option>
+					<option value="africa">Africa</option>
+					<option value="ocean">Ocean</option>
+				</select>
+			</p>
+		</form>		
+		<script>
+			$(function() {
+				$("#kendo-extended-accessibility11").kendoComboBox();
+			});
+		</script>
+
+	</body>
+</html>
